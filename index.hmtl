@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internshala</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="https://internshala.com/static/images/common/new_internshala_logo.svg" alt="internshala logo">
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Internships</a></li>
+                    <li><a href="#">Online Trainings</a><span id = "offer">75% OFF</span><i class ="fas fa-caret-down"></i></li>
+                    <li><a href="#">Fresher Jobs</a></li>
+                </ul>
+                <div>
+                    <button class="btn" id = "login">Login</button>
+                    <button class="btn" id = "signin">Register<i class ="fas fa-caret-down"></i></button>
+                </div>
+            </div>
+            
+           
+        </div>
+    </nav>
+    <section class="header">
+        <div class="center">
+            <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="What are you looking for?"
+                />
+                <div class="input-group-append">
+                  <button class ="btn" type="submit" class="input-group-text" id="signin"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+
+        </div>
+    </section>
+    <section class="Main">
+        <div class="internships">
+            <h2>Internships</h2>
+            <p>Apply to 10,000+ internships  for free</p>
+            <h3>Popular Cities</h3>
+            <div class="atcenter">
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/work_from_home.svg" alt="">
+                    <p>Work from Home</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/delhi_ncr.svg" alt="">
+                    <p>Delhi/NCR</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/bangalore.svg" alt="">
+                    <p>Banglore</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/mumbai.svg" alt="">
+                    <p>Mumbai</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/hyderabad.svg" alt="">
+                    <p>Hyderabad</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/chennai.svg" alt="">
+                    <p>Chennai</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/kolkata.svg" alt="">
+                    <p>Kolkata</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/international.svg" alt="">
+                    <p>International</p>
+
+                </div>
+
+            </div>
+            <h3>Popular Categories</h3>
+            <div class="atcenter">
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/part_time.svg" alt="">
+                    <p>Part-time</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/engineering.svg" alt="">
+                    <p>Engineering</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/ngo.svg" alt="">
+                    <p>NGO</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/mba.svg" alt="">
+                    <p>MBA</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/design.svg" alt="">
+                    <p>Design</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/science.svg" alt="">
+                    <p>Science</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/media.svg" alt="">
+                    <p>Media</p>
+
+                </div>
+                <div class="cards">
+                    <img src="https://internshala.com/static/images/home/internships/categories/humanities.svg" alt="">
+                    <p>Humanities</p>
+
+                </div>
+
+        
+        
+            </div>
+            <h4 style="color:rgb(14, 187, 245); cursor:pointer;">View all Internships<i class="fas fa-arrow-right"></i></h4>
+        </div>
+            <div class="internshipsoffer">
+                <h2>Internshala Trainings <span id="offers">75% off</span></h2>
+                <p>Learn New-age Skills on go </p>
+                <div class="atcenter2">
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/programming_with_python.svg" alt="">
+                        <p>Programming with Python</p>
+    
+                    </div>
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/digital_marketing.svg" alt="">
+                        <p>Digital Marketing</p>
+    
+                    </div>
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/web_development.svg" alt="">
+                        <p>Web Development</p>
+    
+                    </div>
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/machine_learning.svg" alt="">
+                        <p>Machine Learning</p>
+    
+                    </div>
+
+                </div>
+                <div class="atcenter2">
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/advanced_excel.svg" alt="">
+                        <p>Advanced Excel</p>
+    
+                    </div>
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/ethical_hacking.svg" alt="">
+                        <p>Ethical Hacking</p>
+    
+                    </div>
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/autocad.svg" alt="">
+                        <p>AutoCad</p>
+    
+                    </div>
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/trainings/icons/creative_writing.svg" alt="">
+                        <p>Creative Writing</p>
+    
+                    </div>
+
+
+
+                </div>
+                <p>& 52 more...</p>
+                <h4 style="color:rgb(14, 187, 245); cursor:pointer;">View all Trainings<i class="fas fa-arrow-right"></i></h4>
+
+            </div>
+        <div class="FresherJobs">
+            <h2>Fresher Jobs<span id="offers">New</span></h2>
+                <p>Premium fresher jobs on your fingertiips </p>
+                <div class="atcenter2">
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/jobs/perks/ctc.svg" alt="">
+                        <p>Minimum CTC of 3 LPA </p>
+                    </div>
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/jobs/perks/dream.svg" alt="">
+                        <p>Dream Companies</p>
+                    </div>
+
+                    <div class="cards">
+                        <img src="https://internshala.com/static/images/home/jobs/perks/verified.svg" alt="">
+                        <p>100% verified jobs </p>
+                    </div>
+
+                </div>
+                <h4 style="color:rgb(14, 187, 245); cursor:pointer;">View all Jobs<i class="fas fa-arrow-right"></i></h4>
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="content">
+            <div class="one">
+                <h4>Internships by places</h4>
+                <ul>
+                    <li>Internship In India</li>
+                    <li>Internship In Delhi</li>
+                    <li>Internship In Banglore</li>
+                    <li>Internship In Hyderabad</li>
+                    <li>Internship In Mumbai</li>
+                    <li>Internship In Chennai</li>
+                    <li>Internship In Gurgaon</li>
+                    <li>Internship In Kolkata</li>
+                    <li>Virtual Internships</li>
+                </ul>
+            </div>
+            <div class="two">
+                <h4>Internships by Stream</h4>
+                <ul>
+                    <li>Computer Science Internship</li>
+                    <li>Electronic Internship</li>
+                    <li>Mechanical Internship</li>
+                    <li>Civil Internship</li>
+                    <li>Marketing Internship</li>
+                    <li>Chemical Internship</li>
+                    <li>Finance Internship</li>
+                    <li>Summer Research Fellowship</li>
+                    <li>Campus Ambassodar Program</li>
+                </ul>
+            </div>
+            <div class="three">
+                <h4>Online Trainings<span id = "offer">75% OFF</span></h4>
+                <ul>
+                    <li>Programming with Python </li>
+                    <li>Digital Marketing</li>
+                    <li>Web Development</li>
+                    <li>Machine Learning</li>
+                    <li>Advanced Excel</li>
+                    <li>Ethical Hacking</li>
+                    <li>AutoCad</li>
+                    <li>Creative Writing </li>
+                    <li>Data Science</li>
+                </ul>
+            </div>
+            <div class="four">
+                <h4>About Internshala</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>We're Hiring</li>
+                    <li>Hire Interns for Your Company</li>
+                    <li>Team Diary</li>
+                    <li>Blog</li>
+                    <li>Our Services</li>
+                    <li>Terms Condition</li>
+                    <li>Privacy</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="bottom">
+            <div class="left">
+                <button class="getapp"><i class="fab fa-google-play"> Get Android App</i></button>
+                <ul>
+                    <li><a><i class="fab fa-instagram"></i></a></li>
+                    <li><a><i class = "fab fa-twitter"></i></a></li>
+                    <li><a><i class = "fab fa-youtube"></i></a></li>
+                    <li><a><i class = "fab fa-linkedin"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="right">
+                <p>&copy; Copyright 2021 Internshala</p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+</body>
+</html>
