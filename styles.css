@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+  }
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: var(--ff-secondary);
+    background: #fff;
+    color: black;
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+  ul > li{
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primary);
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+  p {
+    margin-bottom: 1.25rem;
+  }
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  }
+  
+  
+  .container{
+      padding:20px 20px;
+      display:flex;
+      box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+      justify-content:space-between;
+      align-items:center;
+      
+
+  }
+  .nav{
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  }
+ .navbar > ul{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      
+  }
+.navbar > ul > li > a:hover{
+  color:blue;
+} 
+  ul>li>a{
+      padding:20px;
+      color:black;
+      font-weight:500;
+  }
+ 
+  .btn{
+      padding:10px 20px;
+      cursor:pointer;
+      background:transparent;
+      border:1px solid #007bff;
+      color:#007bff;
+  }
+
+ i{
+      padding: 0px 4px;
+  }
+  #offer{
+      font-size:13px;
+      color:white;
+      background:orange;
+      padding:3px;
+      border-radius:5px;
+
+  }
+  .center{
+    height:30vh;
+    
+  }
+  .logo{
+      
+      overflow:hidden;
+  }
+  #login:hover{
+    background:#007bff;
+    color:white;
+
+  }
+  #signin{
+      background:#007bff;
+      color:white;
+  }
+  .navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .input-group {
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+   
+  }
+  .form-control {
+      width:35%;
+      
+      font-size:20px;
+     
+  }
+  .main{
+    text-align:center;
+  }
+  .internships{
+    text-align: center;
+    padding:5px;
+    margin:5px;
+    height:100vh;
+  }
+  .internships > h3{
+    margin:5px;
+    padding:2px;
+    
+
+  }
+  .atcenter{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 20px 0 ; 
+  }
+  .cards{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    padding:2px;
+    width:170px;
+    height:180px;
+  }
+  .cards:hover{
+    color:blue;
+    box-shadow: 10px 1px 10px 1px rgba(37, 73, 214, 0.18);
+  }
+  .atcenter2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px 0 ; 
+  }
+  .internshipsoffer{
+    text-align: center;
+    padding:5px;
+    margin:5px;
+    height:100vh;
+    
+  }
+  .FresherJobs{ text-align: center;
+  padding:5px;
+  margin:5px;
+  height:60vh;
+  }
+  #offers{
+    font-size:26px;
+    color:white;
+    background:orange;
+    padding:3px;
+    border-radius:5px;
+
+}
+  .footer{
+      color:white;
+      background:black;
+      height:65vh;
+  }
+  .content{
+      display:flex;
+      padding:20px;
+      justify-content:space-around;
+      margin-top:20px;
+  }
+  .one > ul{
+      display:flex;
+      flex-direction:column;
+      
+
+  }
+
+  hr{
+   margin:5px;
+  }
+  .bottom{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:2px;
+    margin:2px;
+    background: black;
+    height:15vh;
+  }
+  .getapp{
+    color:white;
+    background:transparent;
+    border:2px solid white;
+    padding:7px;
+    width:140px;
+    height:50px;
+    font-size:14px;
+    font-weight:500;
+    text-align:center;
+  }
+  .left>ul{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .left > ul > li > a > i  {
+    color:white;
+    font-size:30px;
+  }
+  .left{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+  
+  }
+  
+ 
